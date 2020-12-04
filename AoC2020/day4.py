@@ -1051,7 +1051,7 @@ optional_fields = ['cid']
 def value_validation(key, value):
     try:
         if key == 'byr':
-            if 1920 <= int(value) <= 2020 and len(value) == 4:
+            if 1920 <= int(value) <= 2002 and len(value) == 4:
                 return True
         elif key == 'iyr':
             if 2010 <= int(value) <= 2020 and len(value) == 4:
